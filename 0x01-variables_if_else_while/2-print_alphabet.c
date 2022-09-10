@@ -5,11 +5,10 @@
  */
 int main(void)
 {
-	
 	char q;
-	
+
 	q = 'a';
-	
+
 	while (q <= 'z')
 	{
 		
