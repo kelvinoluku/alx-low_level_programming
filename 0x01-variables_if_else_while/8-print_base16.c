@@ -1,24 +1,29 @@
 #include <stdio.h>
 
+/* betty style doc for function main goes there*/
 /**
  * main - Entry point
- * code description
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char j;
+	int i;
+	char l;
 
 
-	j = 'z';
-
-
-	while (j >= 'a')
+	i = 48;
+	while (i < 58)
 
 
 {
-		putchar(j);
-		j--;
+	putchar(i);
+	i++;
+}
+	l = 'a';
+	while (l <= 'f')
+{
+	putchar(l);
+	l++;
 }
 	putchar('\n');
 	return (0);
