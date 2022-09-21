@@ -23,5 +23,5 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	if (d < n)
 		*(dest + c) = *(src + d);
-	return (dest);
+	return (dest);
 }
