@@ -8,13 +8,10 @@
  * Return: 0 on success
  */
 
-int main(int argc, char *argv[])
-
+int main(int argc, char *argv[] _attribute_((unused)))
 {
-	int i = 0;
+	if (argc > 0)
+		printf("%d\n", argc);
 
-	for (i = 0; i < argc; i++)
-
-		printf("\n%s", argv[i]);
 	return (0);
 }
