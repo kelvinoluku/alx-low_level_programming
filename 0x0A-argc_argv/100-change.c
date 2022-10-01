@@ -1,4 +1,4 @@
-#include <stdio.h>
+\0;276;0c#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 
@@ -40,5 +40,5 @@ int main(int argc, char *argv[])
 	coins += n / 1;
 
 	printf("%d\n", coins);
-	return (0);
+	return (0);
 }
