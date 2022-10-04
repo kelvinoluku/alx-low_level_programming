@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 		len2++, j++;
 	len2++; /* add null terminator to length */
 
-	concat = malloc(sizeof(char) * (len1 + len2)); /alloc memory/
+	concat = malloc(sizeof(char) * (len1 + len2)); /* alloc memory */
 
 	if (concat == NULL) /* validate memory */
 		return (NULL);
@@ -43,3 +43,4 @@ char *str_concat(char *s1, char *s2)
 
 	return (concat);
 }
+
