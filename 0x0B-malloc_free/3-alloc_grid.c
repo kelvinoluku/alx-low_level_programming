@@ -17,12 +17,12 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0) /* validate input */
 		return (NULL);
 
-	grid = malloc(height * sizeof(int )); /*allocate memory for rows/
+	grid = malloc(height * sizeof(int )); /*allocate memory for rows*/
 
 	if (grid == NULL) /* validate memory */
 		return (NULL);
 
-	for (i = 0; i < height; i++) /allocate memory for columns of each row/
+	for (i = 0; i < height; i++) /* allocate memory for columns of each row */
 	{
 		grid[i] = malloc(width * sizeof(int));
 		if (grid[i] == NULL) /* validate memory */
